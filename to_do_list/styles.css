@@ -82,10 +82,28 @@ ul li{
     align-items: center;
     justify-content:space-between ;
 }
+ul li:hover{
+    background-color: #eeeeee;
+}
 
 ul li p{
     flex-grow: 1;
     padding: 2px;
 }
+ .btn{
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px ;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600; 
+    margin: 2px;
+} 
+.removebtn{
+    background-color: #e21829;
+}
 
-
+.editbtn{
+    background-color: #482175;
+}
