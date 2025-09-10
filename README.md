@@ -97,6 +97,4 @@ Explore Flutter for mobile app development.
 🧑‍💻 Author
 
 Asfar – Software Engineering Student | Web & Mobile Developer in Progress 🚀
-🔗 LinkedIn
- | Portfolio
- | GitHub
+
