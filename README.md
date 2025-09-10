@@ -17,9 +17,6 @@ Save tasks in browser storage
 
 Responsive UI with styled buttons
 
-🔗 Live Demo
- | Source Code
-
 2️⃣ Recipe Finder App 🍲
 
 Description: A recipe search web app that fetches real-time meal data using TheMealDB API.
@@ -36,9 +33,6 @@ View detailed instructions + ingredients in a popup modal
 
 Responsive layout with hover animations
 
-🔗 Live Demo
- | Source Code
-
 3️⃣ Calculator (Scientific & Basic) ➗
 
 Description: Fully functional calculator supporting basic arithmetic operations and extended scientific features like square, square root, and percentage.
@@ -52,9 +46,6 @@ Basic operations: +, -, ×, ÷
 Scientific operations: square, square root, percentage
 
 User-friendly responsive design
-
-🔗 Live Demo
- | Source Code
 
 4️⃣ Login & Profile System 🔐
 
@@ -70,14 +61,13 @@ Save and retrieve user info locally
 
 Simple profile page display
 
-🔗 Live Demo
- | Source Code
+
 
 🚀 How to Run Locally
 
 Clone the repository:
 
-git clone https://github.com/<your-username>/HTML.git
+git clone https://github.com/asfar99-collection/HTML.git
 
 
 Open any project folder (ToDoApp, RecipeFinderApp, Calculator, etc.).
