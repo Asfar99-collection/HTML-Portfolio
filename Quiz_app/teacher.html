@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teacher Quiz Creator</title>
+  <link rel="stylesheet" href="teacher.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Create a Quiz</h1>
+
+    <form id="questionForm">
+      <label>Question:</label>
+      <textarea id="question" required></textarea>
+
+      <label>Option A:</label>
+      <input type="text" id="optionA" required />
+
+      <label>Option B:</label>
+      <input type="text" id="optionB" required />
+
+      <label>Option C:</label>
+      <input type="text" id="optionC" required />
+
+      <label>Option D:</label>
+      <input type="text" id="optionD" required />
+
+      <label>Correct Answer:</label>
+      <select id="correctAnswer" required>
+        <option value="ans1">Option A</option>
+        <option value="ans2">Option B</option>
+        <option value="ans3">Option C</option>
+        <option value="ans4">Option D</option>
+      </select>
+
+      <button type="submit">Add Question</button>
+    </form>
+
+    <h2>📋 Quiz Preview</h2>
+    <pre id="quizPreview">[]</pre>
+
+    <button id="downloadJson">Download JSON</button>
+  </div>
+
+  <script src="teacher.js"></script>
+</body>
+</html>
