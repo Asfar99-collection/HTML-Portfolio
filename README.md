@@ -1,81 +1,125 @@
-🌐 HTML + CSS + JavaScript Projects
+# 🌐 HTML Portfolio — Asfar
 
-# 🌐 HTML Portfolio  
+This repository is a collection of my frontend practice projects built with **HTML**, **CSS**, and **JavaScript**.  
+Projects range from small UI exercises to interactive apps that use browser storage and third-party APIs.
 
-Welcome to my **HTML Portfolio Repository** 🎨  
-This repo is a collection of my **frontend projects** built while learning **HTML, CSS, and JavaScript**.  
-Each project demonstrates a different web concept — from layouts and styling to interactivity and small-scale applications.  
-
-🌍 **Live Portfolio:** [HTML Portfolio](https://asfar99-collection.github.io/HTML-Portfolio/)  
+Live portfolio: https://asfar99-collection.github.io/HTML-Portfolio/
 
 ---
 
-## 📂 Projects  
+## 🧭 Table of Contents
 
-### 1. 🧮 Calculator App  
-A simple yet functional calculator supporting:  
-- Basic arithmetic operations (+, −, ×, ÷)  
-- AC (clear) and DEL (delete last input) functions  
-- Result evaluation using JavaScript  
-
-🔗 [Live Demo – Calculator](https://asfar99-collection.github.io/HTML-Portfolio/Calculator/index.html)  
-
----
-
-### 2. 🎓 Misali School Quiz (Student App)  
-An interactive quiz app for students with built-in grammar questions.  
-- Dynamic question loading  
-- Progress bar  
-- Final score display with replay option  
-- Upload `.json` quiz files for custom quizzes  
-
-🔗 [Live Demo – Student Quiz](https://asfar99-collection.github.io/HTML-Portfolio/QuizApp/student.html)  
+- [Projects](#projects)  
+- [How to run locally](#how-to-run-locally)  
+- [Tech stack](#tech-stack)  
+- [Project JSON sample (Quiz)](#project-json-sample-quiz)  
+- [Troubleshooting / 404 notes](#troubleshooting--404-notes)  
+- [Future improvements](#future-improvements)  
+- [Contact](#contact)
 
 ---
 
-### 3. 👩‍🏫 Teacher Quiz Creator  
-A companion tool for teachers to create quiz files in JSON format.  
-- Add questions via form  
-- Choose correct answer easily  
-- Preview quiz in JSON  
-- Download ready-to-use quiz file  
+## 📂 Projects
 
-🔗 [Live Demo – Teacher Quiz](https://asfar99-collection.github.io/HTML-Portfolio/QuizApp/teacher.html)  
+> Each "Live Demo" link points to the project folder on GitHub Pages. If a demo link 404s, confirm the folder contains an `index.html` and that the folder name (case/underscores) matches the URL.
 
 ---
 
-### 4. 📝 Form Validation Project  
-A project demonstrating real-time form validation.  
-- Input checks for email, password, and other fields  
-- Error/success indicators  
-- Responsive design  
+### 1. 🎓 Quiz App (Student)
+**Description:** Student-facing multiple-choice quiz. Ships with a default English / grammar quiz. Students can also **upload a JSON** quiz file created by a teacher to replace the default questions at runtime.
 
-🔗 [Live Demo – Form Validation](https://asfar99-collection.github.io/HTML-Portfolio/FormValidation/index.html)  
+**Key features**
+- Progress bar showing quiz completion
+- Prevents empty selection; validates input
+- Score summary and replay option
+- Upload teacher-created `.json` files with quizzes
 
----
+**Live Demo:**  
+https://asfar99-collection.github.io/HTML-Portfolio/Quiz_app/
 
-### 5. 🎨 Landing Pages  
-A collection of static landing pages showcasing layouts and styling.  
-- Responsive HTML/CSS design  
-- Use of modern layout techniques (Flexbox, Grid)  
-- Eye-catching UI  
-
-🔗 [Live Demo – Landing Page](https://asfar99-collection.github.io/HTML-Portfolio/LandingPage/index.html)  
+**Source:** `Quiz_app/` (open `Quiz_app` folder in repo)
 
 ---
 
-### 6. 📖 Other Mini Projects  
-- Responsive Layouts  
-- Small interactive JavaScript utilities  
-- Practice files for DOM and CSS  
+### 2. 👩‍🏫 Quiz Creator (Teacher)
+**Description:** Simple form-based interface for teachers to create quizzes. Add questions/options, choose the correct answer, preview the JSON and download a ready-to-use quiz file.
 
-👉 Explore them in the repo folders directly.  
+**Key features**
+- Live JSON preview as items are added
+- Downloadable `quiz.json` for student upload
+- Simple, distraction-free interface
+
+**Live Demo:**  
+https://asfar99-collection.github.io/HTML-Portfolio/Quiz_app/teacher.html
+
+**Source:** `Quiz_app/` (teacher files)
 
 ---
 
-## 🚀 Getting Started  
+### 3. 🧮 Calculator
+**Description:** Visually appealing calculator (basic + convenience operators). Implements input building, AC (clear), DEL (backspace) and `=` evaluate behavior.
 
-### Run Locally  
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/asfar99-collection/HTML-Portfolio.git
+**Key features**
+- Basic arithmetic: `+`, `-`, `*`, `/`, `%`
+- AC and DEL buttons
+- Clean dark UI with rounded buttons
+
+**Live Demo:**  
+https://asfar99-collection.github.io/HTML-Portfolio/calculator/
+
+**Source:** `calculator/`
+
+---
+
+### 4. 📝 To-Do List
+**Description:** Classic To-Do app showcasing DOM manipulation and **Local Storage** persistence. Create, edit, and remove tasks. Tasks persist across refreshes.
+
+**Key features**
+- Add, edit and remove tasks
+- Saves list to `localStorage`
+- Responsive UI and accessible controls
+
+**Live Demo:**  
+https://asfar99-collection.github.io/HTML-Portfolio/to_do_list/
+
+**Source:** `to_do_list/`
+
+---
+
+### 5. 🔐 Login / Profile (Local)
+**Description:** A basic login/profile demo using browser-side storage to save user information locally. Useful for learning authentication UI flows (client-side only).
+
+**Key features**
+- Simple signup/login flow
+- Saves profile information locally
+- Profile display screen
+
+**Live Demo:**  
+https://asfar99-collection.github.io/HTML-Portfolio/login/
+
+**Source:** `login/`
+
+---
+
+### 6. 🍲 Recipe Finder
+**Description:** A dish/recipe search app that consumes **TheMealDB API**. Search recipes, view cards, and open a recipe modal with full ingredients and instructions.
+
+**Key features**
+- Search by keyword (Fetch API + async/await)
+- Grid result layout with hover effects
+- Recipe modal with image, ingredients list and instructions
+- Responsive design and scrollable modal
+
+**Live Demo:**  
+https://asfar99-collection.github.io/HTML-Portfolio/recipe_app/
+
+**Source:** `recipe_app/`
+
+---
+
+## 🚀 How to run locally
+
+1. Clone the repo:
+```bash
+git clone https://github.com/asfar99-collection/HTML-Portfolio.git
+cd HTML-Portfolio
